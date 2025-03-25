@@ -1,0 +1,21 @@
+{
+    "compilerOptions": {
+        "lib": ["DOM", "ESNext", "DOM.Iterable"],
+        "jsx": "react-jsx",
+        "target": "ESNext",
+        "noEmit": true,
+        "skipLibCheck": true,
+        "useDefineForClassFields": true,
+        "module": "ESNext",
+        "isolatedModules": true,
+        "resolveJsonModule": true,
+        "moduleResolution": "bundler",
+        "allowImportingTsExtensions": true,
+        "strict": true,
+        "erasableSyntaxOnly": true,
+        "paths": {
+            "@/*": ["./src/*"]
+        }
+    },
+    "include": ["src"]
+}
